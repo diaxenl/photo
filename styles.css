@@ -1,0 +1,161 @@
+
+.bg-dark{
+    background-color: #2450ca !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.indexbody, .aboutbody, .reviewsBody{
+    background-color: #ddd8d8;
+}
+
+.imgPort {
+    height: 100%;
+    width: 100%;
+}
+
+.indexText{
+    margin-left: 100px;
+}
+
+.indexText h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.aboutMePic {
+    filter: drop-shadow(0px 2px 2px rgb(95, 93, 93));
+    height:100%;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.aboutMeSection, .aboutMePic {
+    margin-top: 40px;
+}
+
+.quoteReview {
+  border-radius: 25px;
+  background: #fff;
+  margin: 20px;
+  height: 500px;
+}
+
+.quoteReview h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quoteReview hr{
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+.reviewText{
+  font-size: 20px;
+}
+
+.reviewsBox{
+  margin-bottom: 20px;
+}
+
+footer{
+    background-color: #2450ca;
+    color: #fff;
+    text-align: center;
+}
+
+#header-bar {
+    text-align: center;
+    left: 50px;
+}
+
+.wrapper { 
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em;
+}
+
+.port_body {
+  background-color: #cccccc;
+  color: #333333;
+}
+
+.portfolio-wrapper {
+    padding: 1.5em;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+.portfolio {
+    margin-top: 40px;
+    columns: 2;
+    column-gap: 10px;
+}
+
+.portfolio-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.portfolio-item, .masonry-content {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .portfolio-item {
+    filter: drop-shadow(0px 2px 2px #000);
+    transition: filter .25s ease-in-out;
+  }
+  .portfolio-item:hover {
+    filter: drop-shadow(2px 7px 7px #000);
+  }
+
+
+@media only screen and  (min-width: 768px) {  
+  .portfolio {
+    columns: 2;
+  }
+  .reviewsBox {
+    columns: 1;
+  }
+  .container{
+    columns:1;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  .portfolio {
+    columns: 3;
+  }
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li {
+  display: inline;
+}
